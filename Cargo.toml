@@ -1,0 +1,15 @@
+[package]
+name = "basics"
+version = "0.0.0"
+
+[dependencies]
+actix = "0.7"
+actix-web = "0.7"
+serde = "1.0"
+serde_derive = "1.0"
+rust-crypto = "0.2"
+chrono = "0.4"
+
+[profile.release]
+lto = true
+panic = 'abort'

@@ -1,0 +1,1 @@
+ wrk -t 10 -c 400 -d60s -s post.lua http://localhost:8080
